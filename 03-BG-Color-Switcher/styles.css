@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  color: gray;
+  font-family: cursive;
+  margin: 10px 0px;
+}
+
+#switches {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#switches li {
+  float: left;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  margin: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#pink {
+  background-color: pink;
+}
