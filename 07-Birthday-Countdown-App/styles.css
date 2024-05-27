@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #a67b5b;
+}
+
+.birthdayBox {
+  padding: 50px;
+  border: 1px solid #151515;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.birthdayBox h1 {
+  font-size: 30px;
+  font-family: cursive;
+  color: #a67b5b;
+}
+
+hr {
+  background-color: #a67b5b;
+  color: #a67b5b;
+  margin: 10px 0px;
+}
+
+.timer {
+  font-size: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
