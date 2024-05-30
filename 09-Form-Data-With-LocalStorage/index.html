@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conatct Form With Local storge</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Contact US</h2>
+            <div class="form-group">
+                <label for="name">Your name : </label>
+                <input type="text" id="userName">
+            </div>
+            <div class="form-group">
+                <label for="email">Your email : </label>
+                <input type="text" id="userEmail">
+            </div>
+            <div class="form-group">
+                <label for="message"> Message : </label>
+                <textarea id="userMessage" cols="14"></textarea>
+            </div>
+            <div class="btn-group">
+                <input type="button" value="Submit" class="submtiBtn" onclick="submitHandler()">
+                <input type="button" value="Reset" class="resetBtn" onclick="resetHandler()">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

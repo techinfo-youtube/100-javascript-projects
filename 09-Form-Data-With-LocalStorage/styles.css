@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.form-container {
+  height: 400px;
+  width: 350px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px black;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px 0px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  margin: 10px 0px;
+  color: gray;
+}
+
+.form-group input[type="text"] {
+  height: 30px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.form-group textarea {
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.btn-group {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submtiBtn,
+.resetBtn {
+  margin: 10px 0px;
+  width: 120px;
+  height: 30px;
+  background-color: #151515;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.resetBtn {
+  color: #ffffff;
+  background-color: red;
+}
