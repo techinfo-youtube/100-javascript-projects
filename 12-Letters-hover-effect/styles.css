@@ -1,0 +1,46 @@
+body {
+  background-color: #feffd2;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #151515;
+  margin-top: 250px;
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
+.letters span {
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  display: inline-block;
+}
+
+.letters span:hover {
+  color: #c80036;
+}
+
+@keyframes bounce {
+  20%,
+  50%,
+  80%,
+  to {
+    transform: scale(1, 1);
+  }
+
+  40% {
+    transform: scale(1.75, 0.65);
+  }
+
+  70% {
+    transform: scale(1.25, 0.75);
+  }
+  90% {
+    transform: scale(1.15, 0.85);
+  }
+}
